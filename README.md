@@ -16,7 +16,7 @@
 	Nesta página, foi escolhido um papel de parede mais escuro, assim destacandoos outros itens da página, mas que tudo tem haver com o tema, pois é uma imagem típica da capa do game, porém somente em preto e branco. No topo da activity, tem uma ImageView e TextView que juntas representam a logo do aplicativo, e logo abaixo temos 4 Button's que nos levarão às páginas de conteúdo. Ao final da página temos um ImageButton que nos redireciona ao site oficial do Red Dead Redemption 2.
 <br>
 <div align="center">
-<img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/63011896-87ee-44c4-a63e-1bb160cb03f6"/>
+<a align= "center"><img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/63011896-87ee-44c4-a63e-1bb160cb03f6"/></a> <a align= "center"><img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/64da3322-9ffc-49e7-b4be-59bbe13272e3"/></a>
 </div>
 
 ### História
