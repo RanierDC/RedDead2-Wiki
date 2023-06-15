@@ -6,6 +6,10 @@
 	Neste trabalho foi feito um aplicativo mobile em um estilo de Fan Wiki sobre Red Dead Redemption 2, um jogo eletrônico de ação-aventura desenvolvido e publicado pela Rockstar Games. É o terceiro título da série Red Dead e uma prequela de Red Dead Redemption, tendo sido lançado em outubro de 2018 para PlayStation 4 e Xbox One. <br>
   Neste aplicativo teremos 5 telas, uma sendo a página inicial que irá te redirecionar a outras, não tendo nenhum conteúdo em específico, porém, as outras páginas terão conteúdo falando sobre diferentes aspectos do Game, tendo dividido esses aspectos em 4 partes: História, Gameplay, Personagens e Mapa.
 </p>
+<br>
+<div align="center">
+<img height="250px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/24b25c54-8c23-4836-85d5-31c8a7383761"/>
+</div>
 
 ## Página Inicial
 <p align="justify"> 
