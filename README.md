@@ -28,7 +28,9 @@
 </p>
 <br>
 <div align="center">
-	https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/27cdb404-fce8-4c3e-9339-429991dc89dd
+	
+https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/27cdb404-fce8-4c3e-9339-429991dc89dd
+
 </div>
 
 ### Gameplay
