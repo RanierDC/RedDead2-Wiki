@@ -65,6 +65,8 @@ https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/98582473-9c88-45f0-b49
 </p>
 <br>
 <div align="center">
-<img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/52afb9bc-b4f2-4dff-9c32-9e1386388fd1"/>
+
+https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/51389854-7cd2-48d3-b079-9c793094cb4a
+
 </div>
 
