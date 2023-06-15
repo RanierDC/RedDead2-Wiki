@@ -42,7 +42,9 @@ https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/27cdb404-fce8-4c3e-933
 </p>
 <br>
 <div align="center">
-<img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/64b7746f-b446-418c-9d96-224a26bb8ca2"/>
+
+https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/4324414f-35e3-4349-8868-961bca7ab9bb
+
 </div>
 
 ### Personagens
