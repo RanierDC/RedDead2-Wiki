@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagem_red2"
+    tools:context=".telaPersonagens">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtTituloPersonagem"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/walter_turncoat"
+                    android:text="@string/personagens"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="48sp" />
+
+                <LinearLayout
+                    android:id="@+id/scrollArthur"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@color/VermelhaEscuro"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imgArthur"
+                                android:layout_width="136dp"
+                                android:layout_height="200dp"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/arthur"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/txtArthur"
+                                android:layout_width="308dp"
+                                android:layout_height="184dp"
+                                android:layout_margin="8dp"
+                                android:justificationMode="inter_word"
+                                android:text="@string/txtDescricaoArthur"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/scrollDutch"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@color/VermelhaEscuro"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imgDutch"
+                                android:layout_width="139dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/dutch"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/txtDutch"
+                                android:layout_width="308dp"
+                                android:layout_height="131dp"
+                                android:layout_margin="8dp"
+                                android:justificationMode="inter_word"
+                                android:text="@string/txtDescricaoDutch"
+                                android:textColor="@color/amareloFraco" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/scrollJohn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@color/VermelhaEscuro"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imgJohn"
+                                android:layout_width="139dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/john"
+                                tools:ignore="ContentDescription" />
+
+                            <TextView
+                                android:id="@+id/txtJohn"
+                                android:layout_width="308dp"
+                                android:layout_height="131dp"
+                                android:layout_margin="8dp"
+                                android:justificationMode="inter_word"
+                                android:text="@string/txtDescricaoJohn"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/scrollHosea"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@color/VermelhaEscuro"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imgHosea"
+                                android:layout_width="139dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/hosea"
+                                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/txtHosea"
+                                android:layout_width="308dp"
+                                android:layout_height="131dp"
+                                android:layout_margin="8dp"
+                                android:justificationMode="inter_word"
+                                android:text="@string/txtDescricaoHosea"
+                                android:textColor="@color/amareloFraco" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/scrollMicah"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@color/VermelhaEscuro"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imgMicah"
+                                android:layout_width="139dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/micah"
+                                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/txtMicah"
+                                android:layout_width="308dp"
+                                android:layout_height="131dp"
+                                android:layout_margin="8dp"
+                                android:justificationMode="inter_word"
+                                android:text="@string/txtDescricaoMicah"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/scrollSadie"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@color/VermelhaEscuro"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imgSadie"
+                                android:layout_width="135dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/sadie"
+                                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/txtSadie"
+                                android:layout_width="308dp"
+                                android:layout_height="131dp"
+                                android:layout_margin="8dp"
+                                android:justificationMode="inter_word"
+                                android:text="@string/txtDescricaoSadie"
+                                android:textColor="@color/amareloFraco" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/scrollAbigail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@color/VermelhaEscuro"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imgAbigail"
+                                android:layout_width="135dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/abigail"
+                                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/txtAbigail"
+                                android:layout_width="308dp"
+                                android:layout_height="131dp"
+                                android:layout_margin="8dp"
+                                android:justificationMode="inter_word"
+                                android:text="@string/txtDescricaoAbigail"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/scrollJack"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="15dp"
+                    android:background="@color/VermelhaEscuro"
+                    android:orientation="horizontal">
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            tools:ignore="UseCompoundDrawables">
+
+                            <ImageView
+                                android:id="@+id/imgJack"
+                                android:layout_width="135dp"
+                                android:layout_height="150dp"
+                                android:layout_margin="5dp"
+                                app:srcCompat="@drawable/jack"
+                                tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                            <TextView
+                                android:id="@+id/txtJack"
+                                android:layout_width="308dp"
+                                android:layout_height="131dp"
+                                android:layout_margin="8dp"
+                                android:justificationMode="inter_word"
+                                android:text="@string/txtDescricaoJack"
+                                android:textColor="@color/amareloFraco" />
+                        </LinearLayout>
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnVerPersonagens"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/corBotao"
+                    android:fontFamily="@font/walter_turncoat"
+                    android:onClick="procurarPersonagens"
+                    android:text="@string/txtBotaoPersonagens"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    tools:ignore="InefficientWeight" />
+
+                <Button
+                    android:id="@+id/btnVoltarPersonagens"
+                    android:layout_width="134dp"
+                    android:layout_height="59dp"
+                    android:layout_marginHorizontal="134dp"
+                    android:backgroundTint="@color/corBotao"
+                    android:fontFamily="@font/walter_turncoat"
+                    android:onClick="irParaTelaInicial"
+                    android:text="@string/voltar"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="17sp"
+                    app:cornerRadius="15dp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

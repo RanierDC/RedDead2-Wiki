@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagem_red2"
+    tools:context=".telaGameplay">
+
+    <TextView
+        android:id="@+id/txtGameplayTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/gameplay"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnVoltarGameplay"
+        android:layout_width="134dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/corBotao"
+        android:fontFamily="@font/walter_turncoat"
+        android:onClick="irParaTelaInicial"
+        android:text="@string/voltar"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.94"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="527dp"
+        android:background="@color/VermelhaEscuro"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.41">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="SpeakableTextPresentCheck,UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtGameplayParagrafo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/txtGameplayParagrafo1"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/imgExemplo"
+                    android:layout_width="match_parent"
+                    android:layout_height="168dp"
+                    android:layout_margin="6dp"
+                    app:srcCompat="@drawable/img_red_mundo"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/txtGameplayParagrafo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/txtGameplayParagrafo2"
+                    android:textColor="@color/amareloFraco"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/txtGameplayParagrafo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/txtGameplayParagrafo3"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/imgExemplo2"
+                    android:layout_width="320dp"
+                    android:layout_height="166dp"
+                    android:layout_margin="6dp"
+                    app:srcCompat="@drawable/red_img_npc"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/txtGameplayParagrafo4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/txtGameplayParagrafo4"
+                    android:textColor="@color/amareloFraco"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

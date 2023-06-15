@@ -1,0 +1,50 @@
+<resources>
+    <!-- DEFINIDO COR DA BARRA DE STATUS -->
+    <style name="DemoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/VermelhaEscuro</item>
+        <item name="colorPrimaryDark">@color/VermelhaEscuro</item>
+        <item name="colorAccent">@color/VermelhaEscuro</item>
+    </style>
+
+    <!-- TEXTOS USADOS EM TODAS AS ACTIVITIES -->
+    <string name="app_name">RedDead2Wiki</string>
+    <string name="Wiki">Wiki</string>
+    <string name="historia">História</string>
+    <string name="personagens">Personagens</string>
+    <string name="gameplay">Gameplay</string>
+    <string name="mapa">Mapa</string>
+    <string name="voltar">Voltar</string>
+
+    <!-- TEXTOS PARA A TELA HISTORIA -->
+    <string name="txtHistoriaParagrafo1">A história começa com a gangue de Dutch van der Linde fugindo de Blackwater após um assalto malsucedido. Os membros da gangue se refugiam nas montanhas de Grizzlies, no estado fictício de New Hanover. Arthur Morgan é o tenente e braço direito de Dutch, e ao longo do jogo, os jogadores assumem seu papel.</string>
+    <string name="txtHistoriaParagrafo2">Conforme avançam na história, a gangue enfrenta diversos desafios e conflitos enquanto tenta encontrar uma forma de sobreviver em um mundo cada vez mais hostil. Arthur se vê dividido entre sua lealdade a Dutch e a crescente dissidência interna na gangue. Ao longo do jogo, são explorados os relacionamentos de Arthur com os demais membros da gangue, incluindo John Marston, protagonista do jogo anterior.</string>
+    <string name="txtHistoriaParagrafo3">À medida que a história avança, Arthur se envolve em várias atividades, como assaltos a trens, roubos a bancos e missões de caça. No entanto, ele também encontra personagens que o levam a questionar seu estilo de vida e seu senso de moralidade. Conforme o Velho Oeste dá lugar ao progresso e à modernização, Arthur confronta dilemas pessoais e éticos.</string>
+    <string name="txtHistoriaParagrafo4">Ao longo do jogo, Arthur explora diferentes regiões e territórios, incluindo as vastas planícies de West Elizabeth e o pântano de Lemoyne. Cada área está repleta de personagens, eventos aleatórios e missões secundárias que enriquecem a narrativa principal.</string>
+
+    <!-- TEXTOS PARA A TELA GAMEPLAY -->
+    <string name="txtGameplayParagrafo1">A jogabilidade de Red Dead Redemption 2 é uma mistura de ação, aventura, mundo aberto e elementos de RPG. O jogo oferece aos jogadores um vasto e detalhado mundo aberto, onde eles podem explorar livremente diversas regiões e interagir com personagens e animais.</string>
+    <string name="txtGameplayParagrafo2">Os jogadores assumem o papel de Arthur Morgan, e têm a liberdade de decidir como querem progredir na história principal, bem como participar de uma variedade de atividades secundárias e missões paralelas.</string>
+    <string name="txtGameplayParagrafo3">A exploração é um elemento chave da jogabilidade. Os jogadores podem percorrer a pé ou a cavalo pelas vastas paisagens do jogo, descobrindo locais ocultos, encontrando animais selvagens e interagindo com NPCs (personagens não jogáveis) que podem oferecer missões, informações ou até mesmo iniciar confrontos.</string>
+    <string name="txtGameplayParagrafo4">Além disso, o jogo apresenta um sistema de honorabilidade, onde as ações do jogador influenciam a reputação de Arthur no mundo do jogo. Atos heróicos, como ajudar pessoas em apuros ou caçar criminosos, aumentam sua honra, enquanto ações criminosas, como roubar ou matar inocentes, diminuem sua honra. Essas escolhas afetam o modo como os NPCs interagem com o personagem e podem desencadear eventos específicos.</string>
+
+    <!-- TEXTOS PARA A TELA PERSONAGENS -->
+    <string name="txtDescricaoArthur">ARTHUR MORGAN, é o homem mais competente da gangue de Dutch, ele faz parte dessa vida desde que era um garoto. Um homem tranquilo, mas sem piedade, ainda que tenha seu próprio senso de honra. Um homem que garante que o trabalho seja feito.</string>
+    <string name="txtDescricaoDutch">DUTCH VAN DER LIE, é o Líder da gangue. Idealista, anarquista, carismático, estudado e bem vivido, mas começa a aparentar estar perdendo a cabeça devido a pressão do mundo moderno.</string>
+    <string name="txtDescricaoJohn">JOHN MARSTON, um órfão que foi acolhido por Dutch quando ainda tinha 12 anos, John teve que sobreviver usando sua astúcia. Destemido e de temperamento forte, ele e Arthur são os membros preferidos da gangue de Dutch.</string>
+    <string name="txtDescricaoHosea">HOSEA MATTHEWS é um mestre na arte da trapaça, um cavalheiro e ladrão, Hosea é o melhor amigo de Dutch e seu braço direito há mais de 20 anos. Inteligente, ele pode sair de qualquer situação usando sua lábia.</string>
+    <string name="txtDescricaoMicah">MICAH BELL, um assassino. Selvagem e imprevisível, que vive por momentos de emoção. Foi acolhido por Dutch na gangue, mesmo que Arthur fosse totalmente contra.</string>
+    <string name="txtDescricaoSadie">SADIE ADLER é uma viúva que quer vingança a todo custo contra aqueles que mataram seu marido. Sem medo de nada e de ninguém, ela não é uma mulher que deve ser passada para trás, mas ainda consegue ser bastante leal para aqueles de quem gosta.</string>
+    <string name="txtDescricaoAbigail">ABIGAIL ROBERTS, uma órfã que precisou sobreviver trabalhando em bares e bordéis, Abigail é uma mulher forte, que não esconde suas opiniões e viu o suficiente da vida para saber como sobreviver contra tudo e todos. E esposa de John Marston</string>
+    <string name="txtDescricaoJack">JACK MARSTON é filho de John e Abigail. O jovem Jack cresceu com a gangue, apesar de todos fazerem o possível para esconder a realidade de suas ações para o garoto. Ele adora a natureza e é bem cuidado por seus vários tios e tias.</string>
+
+    <string name="txtBotaoPersonagens">Ver lista completa de personagens</string>
+
+    <!-- TEXTOS PARA A TELA MAPA -->
+    <string name="txtMapaParagrafo1">O mundo do jogo Red Dead Redemption 2 é enorme. Mas você não será capaz de estimar a sua escala no início do jogo: a versão completa abre gradualmente à medida que você completa as missões. No entanto, como em muitos casos, é possível usar um código de batota que ajudará a corrigir a situação.</string>
+    <string name="txtMapaParagrafo2">Você pode desbloquear o mapa completo gradualmente à medida que você progride através do RDR 2.Você também pode usar um código de batota e comprar um mapa completo. Isso será possível em Saint-Denis, depois de completar a missão "Fueds de sangue, antiga e moderna" no Capítulo 3.</string>
+    <string name="txtMapaParagrafo3">Caso queira ver o mapa completo, tendo todas as informações de coleta de itens, missões, lojas e localização de personagens, clique no botão abaixo para prosseguir em uma página com um interativo do mundo de Red Dead Redemption 2.</string>
+
+    <string name="irMapaInterativo">Ver Mapa Interativo</string>
+
+</resources>

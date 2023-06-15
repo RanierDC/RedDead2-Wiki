@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagem_red2"
+    tools:context=".telaMapa">
+
+    <TextView
+        android:id="@+id/txtTituloMapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/mapa"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnMapaVoltar"
+        android:layout_width="134dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/corBotao"
+        android:fontFamily="@font/walter_turncoat"
+        android:onClick="irParaTelaInicial"
+        android:text="@string/voltar"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976"
+        tools:ignore="TextContrastCheck" />
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="527dp"
+        android:background="@color/VermelhaEscuro"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextSizeCheck">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <TextView
+                    android:id="@+id/txtMapaParagrafo1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/txtMapaParagrafo1"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="204dp"
+                    android:layout_marginHorizontal="8dp"
+                    app:srcCompat="@drawable/mapa"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/txtMapaParagrafo2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/txtMapaParagrafo2"
+                    android:textColor="@color/amareloFraco"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="213dp"
+                    android:layout_marginHorizontal="8dp"
+                    app:srcCompat="@drawable/imagem_compra"
+                    tools:ignore="ContentDescription,ImageContrastCheck" />
+
+                <TextView
+                    android:id="@+id/txtMapaParagrafo3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:justificationMode="inter_word"
+                    android:text="@string/txtMapaParagrafo3"
+                    android:textColor="@color/white"
+                    android:textSize="16sp" />
+
+                <Button
+                    android:id="@+id/btnMapaInterativo"
+                    android:layout_width="match_parent"
+                    android:layout_height="65dp"
+                    android:layout_marginHorizontal="100dp"
+                    android:layout_marginVertical="10dp"
+                    android:backgroundTint="@color/corBotaoMapa"
+                    android:onClick="irParaMapaInterativo"
+                    android:text="@string/irMapaInterativo" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

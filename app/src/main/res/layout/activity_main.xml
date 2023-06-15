@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagem_red"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/imgTitulo"
+        android:layout_width="303dp"
+        android:layout_height="151dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.027"
+        app:srcCompat="@drawable/red_dead_logo"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/txtWiki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/walter_turncoat"
+        android:text="@string/Wiki"
+        android:textColor="@color/VermelhaEscuro"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.211" />
+
+    <Button
+        android:id="@+id/btnHistoria"
+        android:layout_width="134dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/corBotao"
+        android:fontFamily="@font/walter_turncoat"
+        android:onClick="irParaTelaHistoria"
+        android:text="@string/historia"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_width="134dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/corBotao"
+        android:fontFamily="@font/walter_turncoat"
+        android:onClick="irParaTelaMapa"
+        android:text="@string/mapa"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnPersonagens"
+        android:layout_width="134dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/corBotao"
+        android:fontFamily="@font/walter_turncoat"
+        android:onClick="irParaTelaPersonagens"
+        android:text="@string/personagens"
+        android:textColor="@color/black"
+        android:textSize="13sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.372"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnGameplay"
+        android:layout_width="134dp"
+        android:layout_height="59dp"
+        android:backgroundTint="@color/corBotao"
+        android:fontFamily="@font/walter_turncoat"
+        android:onClick="irParaTelaGameplay"
+        android:text="@string/gameplay"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.552"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="89dp"
+        android:layout_height="91dp"
+        android:onClick="irParaRockstar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/rocks"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
