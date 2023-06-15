@@ -8,7 +8,7 @@
 </p>
 <br>
 <div align="center">
-<img height="250px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/24b25c54-8c23-4836-85d5-31c8a7383761"/>
+<img height="250px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/89b966f4-1f7b-4523-bb35-039878443f20"/>
 </div>
 
 ## Página Inicial
@@ -16,7 +16,7 @@
 	Nesta página, foi escolhido um papel de parede mais escuro, assim destacandoos outros itens da página, mas que tudo tem haver com o tema, pois é uma imagem típica da capa do game, porém somente em preto e branco. No topo da activity, tem uma ImageView e TextView que juntas representam a logo do aplicativo, e logo abaixo temos 4 Button's que nos levarão às páginas de conteúdo. Ao final da página temos um ImageButton que nos redireciona ao site oficial do Red Dead Redemption 2.
 <br>
 <div align="center">
-<a align= "center"><img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/63011896-87ee-44c4-a63e-1bb160cb03f6"/></a> <a align= "center"><img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/64da3322-9ffc-49e7-b4be-59bbe13272e3"/></a>
+<a align= "center"><img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/a90d78df-03f3-4fd6-89e9-edc7c571ceab"/></a> <a align= "center"><img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/4e8dace1-bd27-46ba-a79e-375fbf0c838e"/></a>
 </div>
 
 ### História
@@ -28,8 +28,10 @@
 </p>
 <br>
 <div align="center">
-	
-https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/27cdb404-fce8-4c3e-9339-429991dc89dd
+
+
+https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/a8174123-11a3-45db-8105-3e784161c8d8
+
 
 </div>
 
@@ -43,7 +45,11 @@ https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/27cdb404-fce8-4c3e-933
 <br>
 <div align="center">
 
-https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/4324414f-35e3-4349-8868-961bca7ab9bb
+
+
+https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/45463bf2-076e-4bd4-a7a1-2f2d21640fbe
+
+
 
 </div>
 
@@ -54,7 +60,11 @@ https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/4324414f-35e3-4349-886
 <br>
 <div align="center">
 
-https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/98582473-9c88-45f0-b494-abaa75a6a4f2
+
+
+https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/8de82ee8-83f6-44d5-ac17-ae87048b24ea
+
+
 
 </div>
 
@@ -66,7 +76,11 @@ https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/98582473-9c88-45f0-b49
 <br>
 <div align="center">
 
-https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/51389854-7cd2-48d3-b079-9c793094cb4a
+
+
+https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/235457bb-696f-4c7a-95de-865037cb5588
+
+
 
 </div>
 
