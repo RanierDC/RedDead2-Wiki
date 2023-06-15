@@ -11,7 +11,9 @@
 <p align="justify"> 
 	Nesta página, foi escolhido um papel de parede mais escuro, assim destacandoos outros itens da página, mas que tudo tem haver com o tema, pois é uma imagem típica da capa do game, porém somente em preto e branco. No topo da activity, tem uma ImageView e TextView que juntas representam a logo do aplicativo, e logo abaixo temos 4 Button's que nos levarão às páginas de conteúdo. Ao final da página temos um ImageButton que nos redireciona ao site oficial do Red Dead Redemption 2.
 <br>
-
+<div align="center">
+<img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/63011896-87ee-44c4-a63e-1bb160cb03f6"/>
+</div>
 
 ### História
 <p align="justify"> 
@@ -20,6 +22,10 @@
 <p align="justify"> 
 	A escolha de um ScrollView foi para economizarmos espaço e podermos colocar muito conteúdo em uma activity sem a paluição visual da mesma. Houve uma preocupação em alteração de cores entre parágrafos, para não se tornar uma leitura cansativa tendo só uma cor e vários blocos de textos semelhantes.
 </p>
+<br>
+<div align="center">
+<img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/032eb049-b532-4f0d-9daa-c531af0f88da"/>
+</div>
 
 ### Gameplay
 <p align="justify"> 
@@ -28,13 +34,27 @@
 <p align="justify"> 
 	O texto desta página busca explicar ao usuário como funciona as mecânicas do jogo, de forma bem geral, facilitando o entendimento de certas dificuldades que muitos enfrentam no início para se ambientar.
 </p>
+<br>
+<div align="center">
+<img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/64b7746f-b446-418c-9d96-224a26bb8ca2"/>
+</div>
 
 ### Personagens
 <p align="justify"> 
 	Ao entrar nesta página, pode-se perceber de imediato a mudança na forma organizacional do do conteúdo, tendo ao centro blocos de texto, que irá descrever, de forma rsumida, a história de Red Dead Redemption 2. E conforme o usuário for lendo, ele deve descer o conteúdo, para assim poder ler mais sobre e economizar espaço para que não precisasse utilizar de várias telas. Ao final da página tem um botão cujo sua função é para voltar à página inicial.
 </p>
+<br>
+<div align="center">
+<img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/6982506d-834b-468c-9962-f99c8c7c3fb4"/>
+</div>
+
 
 ### Mapa
 <p align="justify"> 
 	Ao entrar nesta página, pode-se perceber de imediato a mudança na forma organizacional do do conteúdo, tendo ao centro blocos de texto, que irá descrever, de forma rsumida, a história de Red Dead Redemption 2. E conforme o usuário for lendo, ele deve descer o conteúdo, para assim poder ler mais sobre e economizar espaço para que não precisasse utilizar de várias telas. Ao final da página tem um botão cujo sua função é para voltar à página inicial.
 </p>
+<br>
+<div align="center">
+<img height="500px" src="https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/52afb9bc-b4f2-4dff-9c32-9e1386388fd1"/>
+</div>
+
