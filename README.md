@@ -55,7 +55,10 @@ https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/45463bf2-076e-4bd4-a7a
 
 ### Personagens
 <p align="justify"> 
-	Ao entrar nesta página, pode-se perceber de imediato a mudança na forma organizacional do do conteúdo, tendo ao centro blocos de texto, que irá descrever, de forma rsumida, a história de Red Dead Redemption 2. E conforme o usuário for lendo, ele deve descer o conteúdo, para assim poder ler mais sobre e economizar espaço para que não precisasse utilizar de várias telas. Ao final da página tem um botão cujo sua função é para voltar à página inicial.
+	Nesta activity tem certa diferença em relação a forma da organização de conteúdo, mas tem a mesma premissa de um título(TextView), conteúdo em forma de blocos, e ao final dois Butoon's, um sendo um botão de complementação sobre o conteúdo da página e o outro sendo o botão voltar. O destaque e diferencial desta tela, seria o srollView em toda a página, e nos blocos de informações um horizontalScrollView para que possa ter um melhor aproveitamento do espaço que os TextView's e ImageView's ocupam.
+</p>
+<p align="justify"> 
+	O conteúdo desta página fala sobre algumas informações sobre o personagem, contextualização dele na história e conexões com outros personagens. A organização de cada bloco é a imagem do personagem e ao lado o texto informando sobre o mesmo. Ao final da página tem um botão que ao clicar, é redirecionado a página do navegador onde irá ter mais informações sobre os personagens os quais já foram citados e também diversos outros que este universo propõe. 
 </p>
 <br>
 <div align="center">
