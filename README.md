@@ -74,7 +74,7 @@ https://github.com/RanierDC/RedDead2-Wiki/assets/90422755/8de82ee8-83f6-44d5-ac1
 
 ### Mapa
 <p align="justify"> 
-	Ao entrar nesta página, pode-se perceber de imediato a mudança na forma organizacional do do conteúdo, tendo ao centro blocos de texto, que irá descrever, de forma rsumida, a história de Red Dead Redemption 2. E conforme o usuário for lendo, ele deve descer o conteúdo, para assim poder ler mais sobre e economizar espaço para que não precisasse utilizar de várias telas. Ao final da página tem um botão cujo sua função é para voltar à página inicial.
+	Na ultima activity, se tem a volta da forma tradicional de organizção das páginas de conteúdo de nossa aplicação. Sendo o título(TextView), bloco único de conteúdo e botão voltar. O texto desta tela é dar algumas dicas sobre o funcionamento do mapa do Red Dead Redemption 2, que é uma crucial forma de se localizar e obter informações do jogo, e caso o jogador queira acesso a um conteúdo sem limites, com muitos detalhes e interação sobre o mapeamento do jogo, no qual possui um cenário imenso, tem um botão ao final do scrollView que direciona o usuário para um site que tem uma gama de referênias e dados do Mapa do RDR2.desta tela, seria o srollView em toda a página, e nos blocos de informações um horizontalScrollView para que possa ter um melhor aproveitamento do espaço que os TextView's e ImageView's ocupam.
 </p>
 <br>
 <div align="center">
