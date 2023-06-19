@@ -7,7 +7,7 @@
   Neste aplicativo teremos 5 telas, uma sendo a página inicial que irá te redirecionar a outras, não tendo nenhum conteúdo em específico, porém, as outras páginas terão conteúdo falando sobre diferentes aspectos do Game, tendo dividido esses aspectos em 4 partes: História, Gameplay, Personagens e Mapa.
 </p>
 <p align="justify"> 
-	Para vizualizar este app com um detalhamento e explicação audiovisual <a href="https://opensource.org/license/mit/">clique aqui</a>, que irá te redirecionar para o vídeo do nosso aplicativo no Youtube.
+	Para vizualizar este app com um detalhamento e explicação audiovisual <a href="https://youtu.be/u8qHYpzK5VM">clique aqui</a>, que irá te redirecionar para o vídeo do nosso aplicativo no Youtube.
 </p>
 <br>
 <div align="center">
